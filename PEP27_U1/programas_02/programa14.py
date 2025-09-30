@@ -8,7 +8,6 @@ b = bytesTotales % 10**3
 
 print(bytesTotales," en sistema decimal (SI): ",gb,"GB,",mb,"mb,",kb,"kb,",b,"bytes.")
 
-# Sistema binario (IEC)
 gib = bytesTotales // 2**30
 mib = (bytesTotales % 2**30) // 2**20
 kib = (bytesTotales % 2**20) // 2**10
