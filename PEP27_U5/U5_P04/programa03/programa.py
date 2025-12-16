@@ -7,6 +7,7 @@ cadena_json = '''
 ]
 '''
 
+# Convierte una cadena a json y la muestra por terminal
 # Convertir la cadena a objeto Python
 paises = json.loads(cadena_json)
 print(f"Tipo de dato: {type(paises)}")  # list

@@ -2,6 +2,7 @@ import os
 import csv
 ruta = os.path.join(os.path.dirname(__file__), "ciudades.csv")
 
+# Lee un fichero y lo muestra por terminal
 try:
     with open(ruta, encoding="utf-8") as fichero_csv:
         reader = csv.reader(fichero_csv, delimiter=",")

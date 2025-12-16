@@ -15,6 +15,7 @@ capitales = [
 
 cabeceras = ["Ciudad", "País", "Continente"]
 
+# Crea un fichero CSV
 try:
     with open(ruta_archivo, "w", encoding="utf-8", newline="") as fichero_csv:
         writer = csv.writer(fichero_csv)

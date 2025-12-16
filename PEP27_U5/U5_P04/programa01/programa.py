@@ -6,6 +6,7 @@ from os import strerror
 ruta_carpeta = os.path.dirname(__file__)
 ruta_archivo = os.path.join(ruta_carpeta, "paises.json")
 
+#Lee un fichero json
 try:
     with open(ruta_archivo, "r", encoding="utf-8") as fichero_json:
         paises = json.load(fichero_json)

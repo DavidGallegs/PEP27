@@ -3,6 +3,7 @@ import os
 
 ruta = os.path.join(os.path.dirname(__file__), "../programa01/ciudades.csv")
 
+#Lee un fichero de una carpeta y lo muestra por terminal
 try:
     with open(ruta, encoding="utf-8") as fichero_csv:
         reader = csv.DictReader(fichero_csv)

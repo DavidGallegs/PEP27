@@ -14,6 +14,7 @@ patrimonios = [
 
 cabeceras = ["Ciudad", "País", "Lugar emblemático"]
 
+#Crea un fichero CSV
 try:
     with open(ruta_archivo, "w", encoding="utf-8", newline="") as fichero_csv:
         writer = csv.DictWriter(fichero_csv, fieldnames=cabeceras, delimiter=";")

@@ -12,6 +12,7 @@ capitales = [
     {"país": "Brasil", "capital": "Brasilia"}
 ]
 
+#Crea un fichero JSON
 try:
     with open(ruta_archivo, "w", encoding="utf-8") as fichero_json:
         json.dump(capitales, fichero_json, ensure_ascii=False, indent=4)
