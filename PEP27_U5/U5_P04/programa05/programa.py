@@ -32,7 +32,7 @@ try:
 
     print(f"Archivo '{ruta_salida}' creado correctamente con los países filtrados.")
 
-except IOError as e:
+except IOError as e:    
     print("Error durante la operación de archivos:", strerror(e.errno))
 except Exception as e:
     print("Ocurrió un error inesperado:", e)

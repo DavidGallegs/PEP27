@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "nombre": "España",
+        "continente": "Europa",
+        "poblacion": 48.0
+    }
+]
